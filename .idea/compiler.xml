@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="multiplayerSwtClient" />
+        <module name="multiplayerMetaServer" />
+        <module name="multiplayerAreaServer" />
+        <module name="multiplayerProtocol" />
+        <module name="multiplayerClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fightlib" target="1.8" />
+      <module name="multiplayerAreaServer" target="1.8" />
+      <module name="multiplayerClient" target="8" />
+      <module name="multiplayerMetaServer" target="1.8" />
+      <module name="multiplayerProtocol" target="1.8" />
+      <module name="multiplayerServer" target="8" />
+      <module name="multiplayerSwtClient" target="8" />
+      <module name="multiplayerSwtClient (1)" target="8" />
+      <module name="raspi-restserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

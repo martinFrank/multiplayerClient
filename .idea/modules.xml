@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../multiplayerAreaServer/multiplayerAreaServer.iml" filepath="$PROJECT_DIR$/../multiplayerAreaServer/multiplayerAreaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiplayerClient.iml" filepath="$PROJECT_DIR$/multiplayerClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../multiplayerMetaServer/multiplayerMetaServer.iml" filepath="$PROJECT_DIR$/../multiplayerMetaServer/multiplayerMetaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../multiplayerProtocol/multiplayerProtocol.iml" filepath="$PROJECT_DIR$/../multiplayerProtocol/multiplayerProtocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../multiplayerSwtClient/multiplayerSwtClient.iml" filepath="$PROJECT_DIR$/../multiplayerSwtClient/multiplayerSwtClient.iml" />
+    </modules>
+  </component>
+</project>
