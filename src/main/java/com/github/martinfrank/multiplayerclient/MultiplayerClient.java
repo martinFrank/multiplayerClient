@@ -4,7 +4,6 @@ import com.github.martinfrank.multiplayerclient.map.MapProvider;
 import com.github.martinfrank.multiplayerclient.model.AreaModel;
 import com.github.martinfrank.multiplayerprotocol.area.PlayerRegistration;
 import com.github.martinfrank.multiplayerprotocol.meta.PlayerMetaData;
-import org.aeonbits.owner.ConfigFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.tiledreader.TiledMap;
@@ -15,15 +14,18 @@ public class MultiplayerClient {
     private MultiPlayerAreaClient areaClient;
     private MultiPlayerMetaClient metaClient;
     private PlayerMetaData playerMetaData;
+    private final MultiplayerClientConfig clientConfig;
+    private final MapProvider mapProvider;
 
-    public MultiplayerClient() {
-        ClientConfig clientConfig = ConfigFactory.create(ClientConfig.class);
-        String server = clientConfig.metaServerAddress();
-        int port = clientConfig.metaServerPort();
-        metaClient = new MultiPlayerMetaClient(server, port);
+
+    public MultiplayerClient(MultiplayerClientConfig clientConfig) throws Exception {
+        this.clientConfig = clientConfig;
+        metaClient = new MultiPlayerMetaClient(clientConfig.getAddress(), clientConfig.getPort());
+        mapProvider = new MapProvider(metaClient);
     }
 
-    private void connect() {
+    //FIXME
+    public void connectToArea() {
         playerMetaData = metaClient.getPlayerData("Mosh", "swordFish");
         String areaId = playerMetaData.playerAreaId;
         LOGGER.debug("connect, Player Meta Data: {}", playerMetaData);
@@ -42,4 +44,15 @@ public class MultiplayerClient {
 
     }
 
+    public PlayerMetaData getPlayerData() {
+        return metaClient.getPlayerData(clientConfig.getUser(), clientConfig.getPassword());
+    }
+
+    public TiledMap getMap() {
+        return mapProvider.getMap();
+    }
+
+    public MultiPlayerAreaClient getAreaClient() {
+        return areaClient;
+    }
 }

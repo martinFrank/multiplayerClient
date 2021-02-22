@@ -4,36 +4,158 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9da1c134-b38f-4eaa-86c7-32a1c2483417" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/BasicNonBlockingServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/IdAttachment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/MultiplayerAreaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/MultiplayerAreaServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/MultiplayerAreaServerTicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/MultiplayerAreaServerTicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/AcceptHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/AreaMessageParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/AreaMessageParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/BroadcastServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/BroadcastServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/NonBlockingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/NonBlockingServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/java/com/github/martinfrank/multiplayerareaserver/server/ReadHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/resources/ServerConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerAreaServer/src/main/resources/ServerConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerMetaServer/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerMetaServer/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/ClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/ClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/client/MultiPlayerAreaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/client/MultiPlayerAreaClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/client/MultiPlayerMetaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/client/MultiPlayerMetaClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/client/SwtMessageParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/client/SwtMessageParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/control/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/control/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/control/ControllerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/control/ControllerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/map/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/map/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/map/MapProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/map/MapProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/map/UnzipUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/map/UnzipUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/model/AreaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/model/AreaModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/res/ResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/res/ResourceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/view/MapCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/view/MapCanvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerclient/view/ModelAreaRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/java/com/github/martinfrank/multiplayerSwtClient/view/ModelAreaRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/resources/gui/root.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/main/resources/gui/root.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/test/java/com/github/martinfrank/multiplayerclient/HashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/test/java/com/github/martinfrank/multiplayerSwtClient/HashTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplayerSwtClient/src/test/java/com/github/martinfrank/multiplayerclient/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplayerSwtClient/src/test/java/com/github/martinfrank/multiplayerSwtClient/JsonTest.java" afterDir="false" />
+    <list default="true" id="9da1c134-b38f-4eaa-86c7-32a1c2483417" name="Default Changelist" comment="initial setup">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_access_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_helger_profiler_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_konghq_unirest_java_3_11_09.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_configuration_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_core_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_jackson_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_jersey_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_jetty_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_lifecycle_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_logging_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_metrics_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_request_logging_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_servlets_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_util_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_validation_2_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_logback_logback_throttling_appender_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_annotation_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_healthchecks_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jersey2_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jetty9_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jmx_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_logback_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_servlets_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_4_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_argparse4j_argparse4j_0_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aeonbits_owner_owner_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_33_v20201020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_33_v20201020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_33_v20201020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_33_v20201020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_33_v20201020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_33_v20201020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_33_v20201020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_33_v20201020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_toolchain_setuid_jetty_setuid_java_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_bean_validation_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_metainf_services_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapeditor_libtiled_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tiledreader_TiledReader_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/multiplayerclient/MultiplayerClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiplayerClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multiplayerClient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/multiplayerclient/ClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/multiplayerclient/ClientMessageParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/multiplayerclient/ClientMessageParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/multiplayerclient/MultiPlayerAreaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/multiplayerclient/MultiPlayerAreaClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/multiplayerclient/MultiplayerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/multiplayerclient/MultiplayerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ClientConfig.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +189,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1nYW9MF0AZOWg3wwbWkwaHE6bjO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,6 +200,7 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -311,7 +435,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613540610455</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="initial setup">
+      <created>1613550816657</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613550816657</updated>
+    </task>
+    <task id="LOCAL-00012" summary="initial setup">
+      <created>1613551144150</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613551144150</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -342,7 +480,8 @@
     <MESSAGE value="zwischenstand" />
     <MESSAGE value="congigfiles" />
     <MESSAGE value="enter/leaves" />
-    <option name="LAST_COMMIT_MESSAGE" value="enter/leaves" />
+    <MESSAGE value="initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial setup" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

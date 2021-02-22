@@ -1,6 +1,7 @@
 package com.github.martinfrank.multiplayerclient;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.martinfrank.multiplayerclient.model.AreaModel;
 import com.github.martinfrank.multiplayerprotocol.area.Message;
@@ -20,6 +21,9 @@ public class MultiPlayerAreaClient implements Runnable {
 
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MultiPlayerAreaClient.class);
+
+    private static final TypeReference<Message<SelectionKey>> TYPE_REFERENCE = new TypeReference<Message<SelectionKey>>() {
+    };
 
     static ByteBuffer buffer = ByteBuffer.allocate(256);
 
@@ -58,15 +62,15 @@ public class MultiPlayerAreaClient implements Runnable {
             ch.close();
         } else {
             msg = sb.toString();
-            handleIncomingServerMessage(msg);
+            handleIncomingServerMessage(msg, key);
         }
 
 
     }
 
-    private void handleIncomingServerMessage(String messageRaw) {
+    private void handleIncomingServerMessage(String messageRaw, SelectionKey key) {
         try {
-            Message message = mapper.readValue(messageRaw, Message.class);
+            Message<SelectionKey> message = mapper.readValue(messageRaw, TYPE_REFERENCE);
             parser.parse(message);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
@@ -133,7 +137,7 @@ public class MultiPlayerAreaClient implements Runnable {
         try {
             //FIXME MessageFactory
             ObjectMapper mapper = new ObjectMapper();
-            Message message = new Message();
+            Message<Void> message = new Message<>();
             message.className = PlayerRegistration.class.getName();
             message.jsonContent = mapper.writeValueAsString(playerRegistration);
             String messageJson = mapper.writeValueAsString(message);
